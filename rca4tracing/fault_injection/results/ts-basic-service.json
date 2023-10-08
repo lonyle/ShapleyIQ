@@ -1,0 +1,77 @@
+[
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-ticketinfo-service"
+        ],
+        "rca_result": {
+            "ts-ticketinfo-service:GET": 0.9997779982044768,
+            "ts-station-service:queryForStationId": 0.00011460867521389155,
+            "ts-travel2-service:queryInfo": 7.89300747323148e-05,
+            "ts-basic-service:GET": 2.8463045577047323e-05
+        },
+        "traceID": "2b42feffb5f06474"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-ticketinfo-service"
+        ],
+        "rca_result": {
+            "ts-ticketinfo-service:GET": 0.9997481204689346,
+            "ts-station-service:queryForStationId": 0.00010505525766936688,
+            "ts-travel2-service:queryInfo": 8.38077678051388e-05,
+            "ts-basic-service:GET": 6.301650559089598e-05
+        },
+        "traceID": "dacb4fd1c4ca71b"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-ticketinfo-service"
+        ],
+        "rca_result": {
+            "ts-ticketinfo-service:GET": 0.8256334081643064,
+            "ts-ticketinfo-service:queryForStationId": 0.17370818303781427,
+            "ts-station-service:queryForStationId": 0.00011769624911506285,
+            "ts-basic-service:queryForStationId": 0.0001137912640747489,
+            "ts-security-service:check": 8.136776332316747e-05,
+            "ts-order-other-service:securityInfoCheck": 8.021401288808971e-05,
+            "ts-order-service:securityInfoCheck": 5.5399966235708986e-05,
+            "ts-contacts-service:getContactsByContactsId": 4.616889889004904e-05,
+            "ts-preserve-service:error": 3.475436685879428e-05,
+            "ts-basic-service:GET": 3.3036173441056134e-05,
+            "ts-security-service:GET": 3.1683326636597776e-05,
+            "ts-preserve-service:GET": 2.527496427657365e-05,
+            "ts-travel-service:getTripAllDetailInfo": 1.9510906069698495e-05,
+            "ts-preserve-service:preserve": 1.9510906069698495e-05
+        },
+        "traceID": "c1f8245c6402f3e6"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-ticketinfo-service"
+        ],
+        "rca_result": {
+            "ts-ticketinfo-service:GET": 0.5948764098373173,
+            "ts-ticketinfo-service:queryForStationId": 0.40487269411888327,
+            "ts-station-service:queryForStationId": 0.00012464477656171682,
+            "ts-travel-service:queryInfo": 7.956853818420436e-05,
+            "ts-basic-service:GET": 4.668272905344057e-05
+        },
+        "traceID": "40517b08156a72a6"
+    }
+]

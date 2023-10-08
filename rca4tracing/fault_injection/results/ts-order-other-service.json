@@ -1,0 +1,198 @@
+[
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9990784107662618,
+            "ts-order-other-service:securityInfoCheck": 0.0005192742324064987,
+            "ts-order-service:securityInfoCheck": 0.0001319528947439345,
+            "ts-preserve-service:preserve": 9.414102947546218e-05,
+            "ts-security-service:check": 9.414102947546218e-05,
+            "ts-preserve-service:error": 8.208004763692839e-05
+        },
+        "traceID": "9e8cf79220236308"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:check": 0.8092206151431895,
+            "ts-security-service:GET": 0.18999541280169657,
+            "ts-order-other-service:securityInfoCheck": 0.0005221050238908697,
+            "ts-order-service:securityInfoCheck": 0.0001347228644958212,
+            "ts-preserve-service:error": 8.003345268609136e-05,
+            "ts-preserve-service:preserve": 4.7110714041075075e-05
+        },
+        "traceID": "f6410a75e394782f"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9990665244308334,
+            "ts-order-other-service:securityInfoCheck": 0.0005197737181284935,
+            "ts-order-service:securityInfoCheck": 0.00013587422410889317,
+            "ts-preserve-service:preserve": 9.429155174098036e-05,
+            "ts-security-service:check": 9.429155174098036e-05,
+            "ts-preserve-service:error": 8.924452344730769e-05
+        },
+        "traceID": "64db049d480870a"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9994885886088677,
+            "ts-order-other-service:securityInfoCheck": 0.0002570139938816187,
+            "ts-order-service:securityInfoCheck": 9.987957542771082e-05,
+            "ts-preserve-service:preserve": 7.39848706871932e-05,
+            "ts-preserve-service:error": 4.35405157922114e-05,
+            "ts-security-service:check": 3.69924353435966e-05
+        },
+        "traceID": "d2c6ae6e47aa8385"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9956427659853929,
+            "ts-order-other-service:securityInfoCheck": 0.0028202321296780827,
+            "ts-order-service:securityInfoCheck": 0.0008261452334893064,
+            "ts-preserve-service:error": 0.00046689958983422736,
+            "ts-preserve-service:preserve": 0.00024395706160550094
+        },
+        "traceID": "30c8fa600b4ab8a2"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9989673523905305,
+            "ts-order-other-service:securityInfoCheck": 0.0005240504944266785,
+            "ts-order-service:securityInfoCheck": 0.00019913805872844617,
+            "ts-security-service:check": 0.00014451237933849507,
+            "ts-preserve-service:error": 9.2690487306736e-05,
+            "ts-preserve-service:preserve": 7.225618966924753e-05
+        },
+        "traceID": "e4ea7dfd42bf6da0"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:check": 0.8100498965618552,
+            "ts-security-service:GET": 0.18887294433350751,
+            "ts-order-other-service:securityInfoCheck": 0.0007173901412585401,
+            "ts-order-service:securityInfoCheck": 0.00016953374338898977,
+            "ts-preserve-service:error": 9.606724069997288e-05,
+            "ts-preserve-service:preserve": 9.416797928982466e-05
+        },
+        "traceID": "258e13dc75658137"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9942554857504284,
+            "ts-order-other-service:securityInfoCheck": 0.0026954980149589834,
+            "ts-preserve-service:preserve": 0.0014683439723011593,
+            "ts-order-service:securityInfoCheck": 0.0006873450243525579,
+            "ts-security-service:check": 0.0004894479907670531,
+            "ts-preserve-service:error": 0.0004038792471917977
+        },
+        "traceID": "e7a02e273d2080d8"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9948492184700995,
+            "ts-order-other-service:securityInfoCheck": 0.002935374033757221,
+            "ts-order-service:securityInfoCheck": 0.0007974828444486964,
+            "ts-preserve-service:preserve": 0.000489601547008685,
+            "ts-security-service:check": 0.000489601547008685,
+            "ts-preserve-service:error": 0.00043872155767693966
+        },
+        "traceID": "e181e72d45432825"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9957213978272346,
+            "ts-order-other-service:securityInfoCheck": 0.0027038086173510737,
+            "ts-order-service:securityInfoCheck": 0.0007543630989821668,
+            "ts-preserve-service:error": 0.0005759300050842806,
+            "ts-preserve-service:preserve": 0.00024450045134783317
+        },
+        "traceID": "5b3bc879aaffd747"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-security-service"
+        ],
+        "rca_result": {
+            "ts-security-service:GET": 0.9950334436191697,
+            "ts-order-other-service:securityInfoCheck": 0.002740937886357176,
+            "ts-order-service:securityInfoCheck": 0.0008323572035152889,
+            "ts-preserve-service:preserve": 0.0004902436648702641,
+            "ts-security-service:check": 0.0004902436648702641,
+            "ts-preserve-service:error": 0.00041277396121738624
+        },
+        "traceID": "176a243ae612b7f8"
+    }
+]

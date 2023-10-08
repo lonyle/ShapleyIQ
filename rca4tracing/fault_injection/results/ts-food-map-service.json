@@ -1,0 +1,82 @@
+[
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-food-service"
+        ],
+        "rca_result": {
+            "ts-food-service:getAllFood": 0.6812021518643373,
+            "ts-food-service:GET": 0.15961283827911132,
+            "ts-food-service:POST": 0.158875837592714,
+            "ts-food-map-service:getTrainFoodOfTrip": 0.00030917226383736236
+        },
+        "traceID": "1a3f70b06b9baf45"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-food-service"
+        ],
+        "rca_result": {
+            "ts-food-service:POST": 0.49814146883050076,
+            "ts-food-service:GET": 0.49702823696247583,
+            "ts-food-service:getAllFood": 0.0039017734250400703,
+            "ts-food-map-service:getTrainFoodOfTrip": 0.0009285207819833204
+        },
+        "traceID": "1d676c585aef49ea"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-food-service"
+        ],
+        "rca_result": {
+            "ts-food-service:getAllFood": 0.8128031555691309,
+            "ts-food-service:POST": 0.09390895643149363,
+            "ts-food-service:GET": 0.09311219652450291,
+            "ts-food-map-service:getTrainFoodOfTrip": 0.0001756914748725031
+        },
+        "traceID": "40836ad9f6df55c9"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-food-service"
+        ],
+        "rca_result": {
+            "ts-food-service:GET": 0.4998862578796781,
+            "ts-food-service:POST": 0.49980390868254426,
+            "ts-food-map-service:getTrainFoodOfTrip": 0.0001856634421619254,
+            "ts-food-service:getAllFood": 0.00012416999561581468
+        },
+        "traceID": "a521c8f8ba13434d"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-food-service"
+        ],
+        "rca_result": {
+            "ts-food-service:POST": 0.5002868855095676,
+            "ts-food-service:GET": 0.49946577169119083,
+            "ts-food-map-service:getTrainFoodOfTrip": 0.00017612844159427108,
+            "ts-food-service:getAllFood": 7.121435764738581e-05
+        },
+        "traceID": "6ac474a4fa951ddf"
+    }
+]

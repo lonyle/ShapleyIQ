@@ -1,0 +1,96 @@
+[
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:POST": 0.9982020422173721,
+            "ts-travel-service:getTripAllDetailInfo": 0.000347276997222317,
+            "ts-route-service:queryById": 0.00031100855455843524,
+            "ts-order-other-service:securityInfoCheck": 0.0001864445024948286,
+            "ts-station-service:queryForStationId": 0.00017098780135274484,
+            "ts-security-service:check": 0.00015967804305377207,
+            "ts-contacts-service:getContactsByContactsId": 0.00011534128125893101,
+            "ts-order-service:securityInfoCheck": 0.0001049342228126073,
+            "ts-preserve-service:error": 8.430613941032174e-05,
+            "ts-preserve-service:GET": 6.138553865528762e-05,
+            "ts-preserve-service:preserve": 6.0878693677117214e-05,
+            "ts-security-service:GET": 5.509202579034231e-05,
+            "ts-basic-service:queryForStationId": 3.875421610599787e-05,
+            "ts-ticketinfo-service:queryForStationId": 3.206517325525143e-05,
+            "ts-travel-service:GET": 2.76058113547538e-05,
+            "ts-ticketinfo-service:GET": 2.180793776906433e-05,
+            "ts-basic-service:GET": 2.0390843855974304e-05
+        },
+        "traceID": "b6fd82d7f984791c"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:preserve": 0.808933521571108,
+            "ts-preserve-service:POST": 0.1891053151458828,
+            "ts-route-service:queryById": 0.00029610168858975255,
+            "ts-travel-service:getTripAllDetailInfo": 0.0002937940629390751,
+            "ts-order-other-service:securityInfoCheck": 0.00018385671513077625,
+            "ts-station-service:queryForStationId": 0.00018129341647192277,
+            "ts-security-service:check": 0.00014748147274763166,
+            "ts-travel-service:GET": 0.00014180335637798083,
+            "ts-preserve-service:error": 0.0001113915327540062,
+            "ts-contacts-service:getContactsByContactsId": 0.0001094164423530406,
+            "ts-ticketinfo-service:queryForStationId": 0.00010792656227130515,
+            "ts-basic-service:queryForStationId": 0.00010689876824136564,
+            "ts-order-service:securityInfoCheck": 0.00010468190486790132,
+            "ts-security-service:GET": 5.552476307716676e-05,
+            "ts-basic-service:GET": 5.1122181899258835e-05,
+            "ts-preserve-service:GET": 4.181263462815391e-05,
+            "ts-ticketinfo-service:GET": 2.8057780659746058e-05
+        },
+        "traceID": "15cfab7f5f3f9a46"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-food-service"
+        ],
+        "rca_result": {
+            "ts-food-service:GET": 0.9951382700154049,
+            "ts-route-service:queryById": 0.0015123258695198625,
+            "ts-travel-service:getRouteByTripId": 0.001388283393345333,
+            "ts-food-service:getAllFood": 0.0007119703278757095,
+            "ts-travel-service:GET": 0.0006559366140109114,
+            "ts-food-map-service:getTrainFoodOfTrip": 0.0005932137798432723
+        },
+        "traceID": "a8c4a46fe5fe76e3"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-food-service"
+        ],
+        "rca_result": {
+            "ts-food-service:GET": 0.9990529399007186,
+            "ts-route-service:queryById": 0.0002990208895814879,
+            "ts-travel-service:getRouteByTripId": 0.00029354293266559204,
+            "ts-food-service:getAllFood": 0.0001785901079896003,
+            "ts-food-map-service:getTrainFoodOfTrip": 0.00013019356305685328,
+            "ts-travel-service:GET": 4.5712605987820645e-05
+        },
+        "traceID": "9508de1b1711da3b"
+    }
+]

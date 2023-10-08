@@ -1,0 +1,145 @@
+[
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:GET": 0.9828635609465141,
+            "ts-order-other-service:securityInfoCheck": 0.002595337242144647,
+            "ts-security-service:check": 0.002105981326147457,
+            "ts-station-service:queryForStationId": 0.0017169484811804428,
+            "ts-travel-service:getTripAllDetailInfo": 0.0015320116673980507,
+            "ts-ticketinfo-service:queryForStationId": 0.0011804239727077645,
+            "ts-preserve-service:preserve": 0.0010842239978610065,
+            "ts-contacts-service:getContactsByContactsId": 0.0010438205467994904,
+            "ts-route-service:queryById": 0.0010283101437650397,
+            "ts-travel-service:GET": 0.0009188734049715113,
+            "ts-basic-service:queryForStationId": 0.0008616723329381041,
+            "ts-order-service:securityInfoCheck": 0.0007680771423890396,
+            "ts-ticketinfo-service:GET": 0.0005923359899393644,
+            "ts-basic-service:GET": 0.0005430973169863959,
+            "ts-security-service:GET": 0.0005003720730666818,
+            "ts-preserve-service:POST": 0.0004832418090948355,
+            "ts-preserve-service:error": 0.00018171160609613127
+        },
+        "traceID": "4f8b9003f0856ced"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:GET": 0.9986979029818147,
+            "ts-order-other-service:securityInfoCheck": 0.0005027858179999146,
+            "ts-security-service:check": 0.00039864134254753014,
+            "ts-order-service:securityInfoCheck": 0.00014706579576670423,
+            "ts-preserve-service:preserve": 9.413991280949555e-05,
+            "ts-security-service:GET": 8.720637484254582e-05,
+            "ts-preserve-service:error": 7.225777421912469e-05
+        },
+        "traceID": "5d836b5dd42be3c2"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:GET": 0.9987954489788413,
+            "ts-order-other-service:securityInfoCheck": 0.00051274562972932,
+            "ts-security-service:check": 0.00039725752880573307,
+            "ts-order-service:securityInfoCheck": 0.00012672610013519367,
+            "ts-preserve-service:preserve": 9.425431241561574e-05,
+            "ts-preserve-service:error": 6.928484761069972e-05,
+            "ts-security-service:GET": 4.282602462326054e-06
+        },
+        "traceID": "aaaf1983b82caad0"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:GET": 0.998590154008901,
+            "ts-security-service:check": 0.0005044955936525361,
+            "ts-order-other-service:securityInfoCheck": 0.000499675215405286,
+            "ts-order-service:securityInfoCheck": 0.00013590769162135616,
+            "ts-security-service:GET": 0.00013256906001873436,
+            "ts-preserve-service:error": 9.007750481795972e-05,
+            "ts-preserve-service:preserve": 4.712092558314737e-05
+        },
+        "traceID": "31c4ca38681f2dc8"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:preserve": 0.8097796475611071,
+            "ts-preserve-service:GET": 0.18879783264244962,
+            "ts-security-service:check": 0.0005667843056082873,
+            "ts-order-other-service:securityInfoCheck": 0.0005052962245339774,
+            "ts-order-service:securityInfoCheck": 0.0001431573444894738,
+            "ts-security-service:GET": 0.00013655176720136407,
+            "ts-preserve-service:error": 7.073015461001923e-05
+        },
+        "traceID": "605a58538e30f275"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:GET": 0.9987134173373066,
+            "ts-order-other-service:securityInfoCheck": 0.0004948496512614169,
+            "ts-security-service:check": 0.0003902582701001179,
+            "ts-order-service:securityInfoCheck": 0.0001471274488686669,
+            "ts-preserve-service:preserve": 9.414114468853781e-05,
+            "ts-security-service:GET": 8.962118607699047e-05,
+            "ts-preserve-service:error": 7.058496169785276e-05
+        },
+        "traceID": "8da0c62737f796d9"
+    },
+    {
+        "top1_recall": 1,
+        "top2_recall": 1,
+        "top3_recall": 1,
+        "top4_recall": 1,
+        "true_anomalies": [
+            "ts-preserve-service"
+        ],
+        "rca_result": {
+            "ts-preserve-service:GET": 0.9987002044423655,
+            "ts-order-other-service:securityInfoCheck": 0.0005043875572860131,
+            "ts-security-service:check": 0.00039524280823024756,
+            "ts-order-service:securityInfoCheck": 0.00014799761765908103,
+            "ts-preserve-service:preserve": 9.423428471324837e-05,
+            "ts-security-service:GET": 8.825189377485983e-05,
+            "ts-preserve-service:error": 6.968139597099918e-05
+        },
+        "traceID": "5925460584800c0d"
+    }
+]
