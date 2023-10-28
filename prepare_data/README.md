@@ -36,10 +36,13 @@ The config file will be in **rca4tracing/fault_injection/config.py**
 You should change the system_type to what you use (either "k8s" or "docker"). Note that if you use the prepared dataset, you should keep the system_type to "docker".
 You should also adjust the web_host, jaeger_host, prom_host accordingly.
 
-You should also pay attention to other parameters in the config file regarding to the IPs.
+You should also pay attention to other parameters in the config file regarding to the IPs. 
 
 
-## 2.4 Forward a port from remote to local
+## 2.4 (Optinonal) Forward a port from remote to local
+(NOTE: This section only applies when you run the fault injection on other machines instead of where you deploy your TrainTicket system. You can skip this step if you are running the injection on the control plane node of the cluster.)
+
+
 To enable remote ssh access without password, you should run the following:
 ```bash
 ssh-copy-id username@remote_server_ip
