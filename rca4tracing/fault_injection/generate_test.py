@@ -46,9 +46,9 @@ class CaseGenerator:
         self.anomaly_seconds = anomaly_seconds
 
         if system_type == 'docker':
-            self.ssh_controller = SshControlerDocker(remote_prefix='ssh root@8.136.136.64')
+            self.ssh_controller = SshControlerDocker()#(remote_prefix='ssh root@8.136.136.64')
         elif system_type == 'k8s':
-            self.ssh_controller = SshControlerK8s(remote_prefix='ssh root@118.31.76.75')
+            self.ssh_controller = SshControlerK8s()#(remote_prefix='ssh root@118.31.76.75')
 
     def exec_workload_generator(self, workload_second, users, spawn_rate):
         ''' this is run locally

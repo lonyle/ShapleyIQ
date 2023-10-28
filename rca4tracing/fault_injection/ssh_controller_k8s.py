@@ -14,8 +14,8 @@ class SshControlerK8s:
     def __init__(self, 
                  remote_prefix = None,
                  blade_bin = None
-                #  remote_prefix='ssh root@118.31.76.75',
-                #  blade_bin='/root/chaosblade/target/chaosblade-1.5.0/blade'
+                 #  remote_prefix='ssh root@118.31.76.75',
+                 #  blade_bin='/root/chaosblade/target/chaosblade-1.5.0/blade'
                 ):
         if remote_prefix is not None:
             self.remote_prefix = remote_prefix

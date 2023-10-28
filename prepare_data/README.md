@@ -26,7 +26,7 @@ After that, the Train Ticket web page will be at http://[Node-IP]:32677. The Jae
 If you are unable to run TrainTicket using the repo https://github.com/FudanSELab/train-ticket because they have some upgradation, you can try the forked version: https://github.com/lonyle/train-ticket.
 
 ## 2.2 Install dependent softwares
-1. Chaosblade (https://github.com/chaosblade-io/chaosblade)
+1. Chaosblade (https://github.com/chaosblade-io/chaosblade). You may directly install the pre-built releases.
 2. locust (https://locust.io/)
 3. InfluxDB (https://www.influxdata.com/)
 4. Redis (https://redis.com/)
@@ -35,6 +35,8 @@ If you are unable to run TrainTicket using the repo https://github.com/FudanSELa
 The config file will be in **rca4tracing/fault_injection/config.py**
 You should change the system_type to what you use (either "k8s" or "docker"). Note that if you use the prepared dataset, you should keep the system_type to "docker".
 You should also adjust the web_host, jaeger_host, prom_host accordingly.
+
+You should also pay attention to other parameters in the config file regarding to the IPs.
 
 
 ## 2.4 Forward a port from remote to local

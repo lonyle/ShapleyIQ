@@ -2,12 +2,20 @@ import json
 import time
 import subprocess
 
+import rca4tracing.fault_injection.config as fi_cfg
+
 from rca4tracing.common.logger import setup_logger
 LOG = setup_logger(__name__, module_name='rca')
 
 class SshControlerDocker:
-    def __init__(self, remote_prefix='ssh root@8.136.136.64'):
-        self.remote_prefix = remote_prefix
+    def __init__(self, 
+                 # remote_prefix='ssh root@8.136.136.64'
+                 remote_prefix=None):
+        # self.remote_prefix = remote_prefix
+        if remote_prefix is not None:
+            self.remote_prefix = remote_prefix
+        else:            
+            self.remote_prefix = fi_cfg.docker_remote_prefix
 
     def get_container_id_for_name(self, name):
         ''' get container id for some service name
