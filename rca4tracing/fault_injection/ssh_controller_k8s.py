@@ -5,15 +5,28 @@ import json
 import time
 import subprocess
 
+import rca4tracing.fault_injection.config as fi_cfg
+
 from rca4tracing.common.logger import setup_logger
 LOG = setup_logger(__name__, module_name='rca')
 
 class SshControlerK8s:
     def __init__(self, 
-                 remote_prefix='ssh root@118.31.76.75',
-                 blade_bin='/root/chaosblade/target/chaosblade-1.5.0/blade'
+                 remote_prefix = None,
+                 blade_bin = None
+                #  remote_prefix='ssh root@118.31.76.75',
+                #  blade_bin='/root/chaosblade/target/chaosblade-1.5.0/blade'
                 ):
-        self.remote_prefix = remote_prefix
+        if remote_prefix is not None:
+            self.remote_prefix = remote_prefix
+        else:            
+            self.remote_prefix = fi_cfg.k8s_remote_prefix
+
+        if blade_bin is not None:
+            self.blade_bin = blade_bin
+        else:
+            self.blade_bin = fi_cfg.k8s_blade_bin
+
         self.remote_prefix_params = self.remote_prefix.split(' ')
         self.blade_bin = blade_bin
 
@@ -21,11 +34,12 @@ class SshControlerK8s:
         ''' for k8s env, the ip recorded in jaeger is the pod's ip
             the mapping from innner_ip to external_ip
         '''
-        node2external_ip = {
-            'node1': '172.20.82.226', 
-            'node2': '172.20.82.227', 
-            'master': '172.20.82.224'
-        }
+        # node2external_ip = {
+        #     'node1': '172.20.82.226', 
+        #     'node2': '172.20.82.227', 
+        #     'master': '172.20.82.224'
+        # }
+        node2external_ip = fi_cfg.k8s_node2external_ip
         ip_mapping = dict()
         
         output = subprocess.check_output(self.remote_prefix_params + \
