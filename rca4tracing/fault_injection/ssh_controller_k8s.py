@@ -27,7 +27,7 @@ class SshControlerK8s:
         else:
             self.blade_bin = fi_cfg.k8s_blade_bin
 
-        self.remote_prefix_params = self.remote_prefix.split(' ')
+        self.remote_prefix_params = self.remote_prefix.split(' ') if self.remote_prefix != "" else []
         self.blade_bin = blade_bin
 
     def get_ip_mapping(self):
