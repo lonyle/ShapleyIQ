@@ -19,7 +19,10 @@ def plot_running_time(input_path, image_name,
     ax = fig.add_axes([0.08, 0.25, 0.9, 0.74])
 
     with open(input_path + 'running_time.json') as f:
+        print (input_path + 'running_time.json')
         running_time = json.load(f)
+
+    print_average_running_time(running_time)
 
     idx = 0
     for algorithm in algorithms:
@@ -45,9 +48,9 @@ def plot_running_time(input_path, image_name,
 
         idx += 1
 
-        if algorithm == 'ShapleyValueRCA':
-            print (x_vec)
-            print (y_vec)
+        # if algorithm == 'ShapleyValueRCA':
+        #     print (x_vec)
+        #     print (y_vec)
 
     ax.set_yscale('log')
 
@@ -63,6 +66,21 @@ def plot_running_time(input_path, image_name,
     plt.savefig(path + image_name + '.eps', dpi=1000)
     plt.show()
     plt.close()
+
+def print_average_running_time(running_time, algorithms=['ShapleyValueRCA', 'MicroHECL', 'MicroRCA', 'TON', 'MicroRank']):
+    result_dict = dict()
+    for algorithm in algorithms:
+        time_dict = running_time[algorithm]
+
+        if algorithm in alg_to_label:
+            label = alg_to_label[algorithm]
+        else:
+            label = algorithm
+        
+        result_dict[ label ] = time_dict["all"]['average']
+
+    print ("the average running time of different algorithms: (Table 4 in the paper, unit: second)\n", result_dict)
+        
 
 if __name__ == '__main__':
     prefix = 'rca4tracing/rca/experiment/output_data/'
