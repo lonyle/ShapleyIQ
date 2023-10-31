@@ -26,7 +26,7 @@ def get_bar_graph(image_name,
     fig = plt.figure(figsize=(9,1.9))
     # fig = plt.figure(figsize=(9,2.5))
     # ax = fig.add_axes([0.06, 0.09, 0.92, 0.88])
-    ax = fig.add_axes([0.09, 0.15, 0.9, 0.84])
+    ax = fig.add_axes([0.09, 0.18, 0.9, 0.81])
     
     y = dict()
     for algorithm in algorithms:
