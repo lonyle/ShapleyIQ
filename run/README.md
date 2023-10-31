@@ -41,6 +41,8 @@ python rca4tracing/rca/experiment/plot/plot_figures.py --figure=jaeger_global
 python rca4tracing/rca/experiment/plot/plot_figures.py --figure=jaeger_multi_root_cause
 ```
 
+For Figure 9(b) in the paper (corresponding to `--figure=jaeger_multi_root_cause`), as we do not release the code for Sage, we have changed the layout of the figure to remove the results of Sage and add one more group top-$|{S}_i^*|+2$.
+
 ```bash
 python rca4tracing/rca/experiment/plot/plot_running_time.py
 ```
