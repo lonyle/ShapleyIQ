@@ -14,8 +14,8 @@ We use python 3.7. If some of the Python packages are missing, please refer to r
 ```bash
 python rca4tracing/rca/experiment/experiment_jaeger.py 
 ```
-After you run, the results will be stored in **rca4tracing/rca/experiment/output_data/experiment_jaeger/** where you may refer to **top_k.jpg** for the result figure.
-The original experiment results for TrainTicket are in **rca/experiment/output_data/experiment_jaeger.zip** (including the results of ShapleyIQ).
+After you run, the raw results will be stored in **rca4tracing/rca/experiment/output_data/experiment_jaeger/**. To plot the figures, you should follow Section "3. Plot the figures".
+
 
 - Experiments for the cases with multiple root causes (Figure 9(b))
 ```bash
