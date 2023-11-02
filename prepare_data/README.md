@@ -52,8 +52,15 @@ Then, you need to forward the web_host port (e.g. 32677 for k8s), the jaeger_hos
 ssh -L <local_port>:localhost:<remote_port> username@localhost
 ```
 
+## 2.5 Enable ssh connection from cluster leader to cluster follower
+On your cluster leader node, excuete
+```bash
+ssh-copy-id [username]@[ip_of_follower_node]
+```
+For example, the user name of a follower node is `root` and the node ip is `10.10.1.2`, then you may run `ssh-copy-id root@10.10.1.2`.
 
-## 2.5 After all these preparations
+
+## 2.6 After all these preparations
 Just run the script **run_collect_data.sh** (which sets the variable collect_data to True)
 ```bash
 bash run/run_collect_data.sh
