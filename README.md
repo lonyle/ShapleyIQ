@@ -77,8 +77,30 @@ bash run/run.sh
 
 If you only want to run the experiments for a single root cause, you can run the following:
 ```bash
-python rca4tracing/rca/experiment/experiment_jaeger.py 
+python rca4tracing/rca/experiment/experiment_jaeger.py
 ```
+
+# Citation
+If you find this repo useful, please cite our paper.
+```
+@inproceedings{li2023shapleyiq,
+    author = {Li, Ye and Tan, Jian and Wu, Bin and He, Xiao and Li, Feifei},
+    title = {ShapleyIQ: Influence Quantification by Shapley Values for Performance Debugging of Microservices},
+    year = {2024},
+    isbn = {9798400703942},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3623278.3624771},
+    doi = {10.1145/3623278.3624771},
+    booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 4},
+    pages = {287–323},
+    numpages = {37},
+    series = {ASPLOS '23}
+}
+```
+
+# Contact 
+If you have any question, please contact liye666666@gmail.com
 
 
 
